@@ -1,7 +1,7 @@
 # Blog Post API
 
 ## Overview
-This repository contains a backend RESTful API built with Django and Django REST Framework (DRF). It provides a foundational blog system allowing clients to create, read, update, and delete (CRUD) blog posts.
+This repository contains a backend RESTful API built with Django and Django REST Framework (DRF). It provides a foundational blog system allowing clients to create, read and update blog posts.
 
 ## Features
 * **CRUD Operations:** Full support for managing blog posts.
@@ -21,7 +21,6 @@ This repository contains a backend RESTful API built with Django and Django REST
 | `POST` | `/blogposts/` | Create a new blog post. |
 | `GET` | `/blogposts/<id>/` | Retrieve a specific blog post by ID. |
 | `PUT/PATCH` | `/blogposts/<id>/` | Update a specific blog post. |
-| `DELETE` | `/blogposts/<id>/` | Delete a specific blog post. |
 
 ## Data Models
 ### `BlogPost`
